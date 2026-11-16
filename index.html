@@ -1,138 +1,197 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Sports Quiz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
 
-    <header>
-        <h1>Sports Quiz</h1>
-        <p>Test your knowledge!</p>
-    </header>
+    <div class="container-fluid">
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="quiz.html">Quiz</a>
-        <a href="about.html">About</a>
-    </nav>
-
-    <main>
-
-        <h2>Quiz Questions</h2>
-        <p>Answer all 10 questions below.</p>
-
-        <form id="quiz-form">
-
-            <div class="question">
-                <h3>Question 1</h3>
-                <p>Insert question here.</p>
-                <input type="radio" name="q1" value="a"> Answer A
-                <input type="radio" name="q1" value="b"> Answer B
-                <input type="radio" name="q1" value="c"> Answer C
-                <input type="radio" name="q1" value="d"> Answer D
+        <!-- Header -->
+        <header class="row">
+            <div class="col-12">
+                <h1>Sports Quiz</h1>
+                <p>Test your knowledge!</p>
             </div>
+        </header>
 
-            <div class="question">
-                <h3>Question 2</h3>
-                <p>Insert question here.</p>
-                <input type="radio" name="q2" value="a"> Answer A
-                <input type="radio" name="q2" value="b"> Answer B
-                <input type="radio" name="q2" value="c"> Answer C
-                <input type="radio" name="q2" value="d"> Answer D
+
+        <!-- Sidebar and Main Content -->
+        <div class="row">
+
+            <!-- Navigation Sidebar -->
+            <nav id="sidebar" class="col-md-3">
+                <a href="index.html">Home</a>
+                <a href="quiz.html">Quiz</a>
+                <a href="about.html">About</a>
+            </nav>
+
+
+            <!-- Main Quiz Content -->
+            <main class="col-md-9">
+
+                <h2>Quiz Questions</h2>
+                <p>Answer all 10 questions below.</p>
+
+                <form id="quiz-form">
+
+                    <!-- Question 1 -->
+                    <div class="question">
+                        <h3>Question 1</h3>
+                        <p>Insert question here.</p>
+
+                        <input type="radio" name="q1" value="a" class="answer"> Answer A
+                        <input type="radio" name="q1" value="b" class="answer"> Answer B
+                        <input type="radio" name="q1" value="c" class="answer"> Answer C
+                        <input type="radio" name="q1" value="d" class="answer"> Answer D
+                    </div>
+
+
+                    <!-- Question 2 -->
+                    <div class="question">
+                        <h3>Question 2</h3>
+                        <p>Insert question here.</p>
+
+                        <input type="radio" name="q2" value="a" class="answer"> Answer A
+                        <input type="radio" name="q2" value="b" class="answer"> Answer B
+                        <input type="radio" name="q2" value="c" class="answer"> Answer C
+                        <input type="radio" name="q2" value="d" class="answer"> Answer D
+                    </div>
+
+
+                    <!-- Question 3 -->
+                    <div class="question">
+                        <h3>Question 3</h3>
+                        <p>Insert question here.</p>
+
+                        <input type="radio" name="q3" value="a" class="answer"> Answer A
+                        <input type="radio" name="q3" value="b" class="answer"> Answer B
+                        <input type="radio" name="q3" value="c" class="answer"> Answer C
+                        <input type="radio" name="q3" value="d" class="answer"> Answer D
+                    </div>
+
+
+                    <!-- Question 4 -->
+                    <div class="question">
+                        <h3>Question 4</h3>
+                        <p>Insert question here.</p>
+
+                        <input type="radio" name="q4" value="a" class="answer"> Answer A
+                        <input type="radio" name="q4" value="b" class="answer"> Answer B
+                        <input type="radio" name="q4" value="c" class="answer"> Answer C
+                        <input type="radio" name="q4" value="d" class="answer"> Answer D
+                    </div>
+
+
+                    <!-- Question 5 -->
+                    <div class="question">
+                        <h3>Question 5</h3>
+                        <p>Insert question here.</p>
+
+                        <input type="radio" name="q5" value="a" class="answer"> Answer A
+                        <input type="radio" name="q5" value="b" class="answer"> Answer B
+                        <input type="radio" name="q5" value="c" class="answer"> Answer C
+                        <input type="radio" name="q5" value="d" class="answer"> Answer D
+                    </div>
+
+
+                    <!-- Question 6 -->
+                    <div class="question">
+                        <h3>Question 6</h3>
+                        <p>Insert question here.</p>
+
+                        <input type="radio" name="q6" value="a" class="answer"> Answer A
+                        <input type="radio" name="q6" value="b" class="answer"> Answer B
+                        <input type="radio" name="q6" value="c" class="answer"> Answer C
+                        <input type="radio" name="q6" value="d" class="answer"> Answer D
+                    </div>
+
+
+                    <!-- Question 7 -->
+                    <div class="question">
+                        <h3>Question 7</h3>
+                        <p>Insert question here.</p>
+
+                        <input type="radio" name="q7" value="a" class="answer"> Answer A
+                        <input type="radio" name="q7" value="b" class="answer"> Answer B
+                        <input type="radio" name="q7" value="c" class="answer"> Answer C
+                        <input type="radio" name="q7" value="d" class="answer"> Answer D
+                    </div>
+
+
+                    <!-- Question 8 -->
+                    <div class="question">
+                        <h3>Question 8</h3>
+                        <p>Insert question here.</p>
+
+                        <input type="radio" name="q8" value="a" class="answer"> Answer A
+                        <input type="radio" name="q8" value="b" class="answer"> Answer B
+                        <input type="radio" name="q8" value="c" class="answer"> Answer C
+                        <input type="radio" name="q8" value="d" class="answer"> Answer D
+                    </div>
+
+
+                    <!-- Question 9 -->
+                    <div class="question">
+                        <h3>Question 9</h3>
+                        <p>Insert question here.</p>
+
+                        <input type="radio" name="q9" value="a" class="answer"> Answer A
+                        <input type="radio" name="q9" value="b" class="answer"> Answer B
+                        <input type="radio" name="q9" value="c" class="answer"> Answer C
+                        <input type="radio" name="q9" value="d" class="answer"> Answer D
+                    </div>
+
+
+                    <!-- Question 10 -->
+                    <div class="question">
+                        <h3>Question 10</h3>
+                        <p>Insert question here.</p>
+
+                        <input type="radio" name="q10" value="a" class="answer"> Answer A
+                        <input type="radio" name="q10" value="b" class="answer"> Answer B
+                        <input type="radio" name="q10" value="c" class="answer"> Answer C
+                        <input type="radio" name="q10" value="d" class="answer"> Answer D
+                    </div>
+
+
+                    <!-- Submit Button -->
+                    <button type="submit" id="submit-btn">Submit Quiz</button>
+
+                </form>
+
+
+                <!-- Score Display -->
+                <section id="results">
+                    <h2>Quiz Results</h2>
+                    <p id="score">Your score will appear here.</p>
+                </section>
+
+            </main>
+
+        </div>
+
+
+        <!-- Footer -->
+        <footer class="row">
+            <div class="col-12">
+                <p>2026 Online Quiz Project</p>
             </div>
+        </footer>
 
-            <div class="question">
-                <h3>Question 3</h3>
-                <p>Insert question here.</p>
-                <input type="radio" name="q3" value="a"> Answer A
-                <input type="radio" name="q3" value="b"> Answer B
-                <input type="radio" name="q3" value="c"> Answer C
-                <input type="radio" name="q3" value="d"> Answer D
-            </div>
+    </div>
 
-            <div class="question">
-                <h3>Question 4</h3>
-                <p>Insert question here.</p>
-                <input type="radio" name="q4" value="a"> Answer A
-                <input type="radio" name="q4" value="b"> Answer B
-                <input type="radio" name="q4" value="c"> Answer C
-                <input type="radio" name="q4" value="d"> Answer D
-            </div>
-
-            <div class="question">
-                <h3>Question 5</h3>
-                <p>Insert question here.</p>
-                <input type="radio" name="q5" value="a"> Answer A
-                <input type="radio" name="q5" value="b"> Answer B
-                <input type="radio" name="q5" value="c"> Answer C
-                <input type="radio" name="q5" value="d"> Answer D
-            </div>
-
-            <div class="question">
-                <h3>Question 6</h3>
-                <p>Insert question here.</p>
-                <input type="radio" name="q6" value="a"> Answer A
-                <input type="radio" name="q6" value="b"> Answer B
-                <input type="radio" name="q6" value="c"> Answer C
-                <input type="radio" name="q6" value="d"> Answer D
-            </div>
-
-            <div class="question">
-                <h3>Question 7</h3>
-                <p>Insert question here.</p>
-                <input type="radio" name="q7" value="a"> Answer A
-                <input type="radio" name="q7" value="b"> Answer B
-                <input type="radio" name="q7" value="c"> Answer C
-                <input type="radio" name="q7" value="d"> Answer D
-            </div>
-
-            <div class="question">
-                <h3>Question 8</h3>
-                <p>Insert question here.</p>
-                <input type="radio" name="q8" value="a"> Answer A
-                <input type="radio" name="q8" value="b"> Answer B
-                <input type="radio" name="q8" value="c"> Answer C
-                <input type="radio" name="q8" value="d"> Answer D
-            </div>
-
-            <div class="question">
-                <h3>Question 9</h3>
-                <p>Insert question here.</p>
-                <input type="radio" name="q9" value="a"> Answer A
-                <input type="radio" name="q9" value="b"> Answer B
-                <input type="radio" name="q9" value="c"> Answer C
-                <input type="radio" name="q9" value="d"> Answer D
-            </div>
-
-            <div class="question">
-                <h3>Question 10</h3>
-                <p>Insert question here.</p>
-                <input type="radio" name="q10" value="a"> Answer A
-                <input type="radio" name="q10" value="b"> Answer B
-                <input type="radio" name="q10" value="c"> Answer C
-                <input type="radio" name="q10" value="d"> Answer D
-            </div>
-
-            <button type="submit">Submit Quiz</button>
-
-        </form>
-
-        <section id="results">
-            <h2>Quiz Results</h2>
-            <p id="score">Your score will appear here.</p>
-        </section>
-
-    </main>
-
-    <footer>
-        <p>2026 Online Quiz Project</p>
-    </footer>
+</body>
+</html>
 
 </body>
 </html>
